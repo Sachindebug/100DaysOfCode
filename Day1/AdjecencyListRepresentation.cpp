@@ -36,7 +36,7 @@ int main()
         {
             cout << x << "->";
         }
-        cout << "NULL";
+        cout << "NULL";//showing end of list
         cout << endl;
     }
 
