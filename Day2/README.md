@@ -4,4 +4,4 @@
 - product of Array Except self(prefix Array)
 - Max Sum Subarray(Kadane's algorithms)
 - Triplet with 0 sum(2 pointer Method)
-- Sum of 2 elements equals to third
+- Sum of 2 elements equals to third(2 pointer method)
