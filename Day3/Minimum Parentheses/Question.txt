@@ -1,0 +1,28 @@
+Given a string "pattern", which contains only two types of characters ‘(’, ‘)’.
+Your task is to find the minimum number of parentheses either ‘(’, ‘)’ we must add the parentheses in string ‘pattern’ and the resulted string is valid.
+Condition for valid string-
+Every opening parenthesis ‘(’ must have a correct closing parenthesis ‘)’.
+Example - ‘(()(()))’, ‘()()()’, ‘((()))’ are valid string, and ‘(((’, ‘(()’, ‘)(())’ are invalid string.
+Note:
+1. You are not required to print the output explicitly, it has already been taken care of. Just implement the function and return the minimum number of parentheses required to make a string valid.
+Input Format:
+The first line of input contains an integer ‘T’ denoting the number of test cases.
+The next ‘T’ lines represent the ‘T’ test cases.
+
+The first line of each test case contains a string "pattern".
+Output Format:
+For each test case, return the minimum number of parentheses.
+Constraints:
+1 <= T <= 50
+1 <= N <= 10^4
+
+Where ‘T’ is the total number of test cases, ‘N’ denotes the length of string "pattern".
+
+Time limit: 1 second
+Sample Input 1:
+2
+)((()
+((
+Sample Output 1:
+3
+2
